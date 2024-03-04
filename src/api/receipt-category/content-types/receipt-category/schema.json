@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "receipt_categories",
+  "info": {
+    "singularName": "receipt-category",
+    "pluralName": "receipt-categories",
+    "displayName": "Receipt Category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "createdby": {
+      "type": "string"
+    }
+  }
+}
